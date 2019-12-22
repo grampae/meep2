@@ -9,6 +9,6 @@ Use 'pip3 install -r requirements.txt' to install.
 Usage: python meep2.py 'http://victim.com/' cookiename 50 20000
 (50 represents the amount of threads and 20000 represents the amount of requests, adjust accordingly)
 
-
+*Please use responsibly*
 
 Please feel free to comment and or make suggestions to make this better!
