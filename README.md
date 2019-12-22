@@ -12,3 +12,5 @@ Usage: python meep2.py 'http://victim.com/' cookiename 50 20000
 *Please use responsibly*
 
 Please feel free to comment and or make suggestions to make this better!
+
+Future updates will include, error handling, the ability to use post requests...
